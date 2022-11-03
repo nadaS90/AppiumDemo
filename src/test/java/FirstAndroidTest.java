@@ -19,8 +19,8 @@ public class FirstAndroidTest
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("platformName", "Android");
         caps.setCapability("automationName", "UiAutomator2");
-        caps.setCapability("platformVersion", "11.0");
-        caps.setCapability("deviceName", "Android Emulator 1");
+        caps.setCapability("platformVersion", "12.0.0");
+        caps.setCapability("deviceName", "HUAWEI P30 Pro");
         caps.setCapability("app", System.getProperty("user.dir")+"/apps/ApiDemos-debug.apk");
 
         // add appium server
