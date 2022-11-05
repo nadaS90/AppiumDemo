@@ -36,7 +36,7 @@ public class Runchrome
     @Test
     public void click_App_Button()
     {
-        //driver.findElement(new AppiumBy.ByAccessibilityId("App")).click();
+//        driver.findElement(new AppiumBy.ByAccessibilityId("App")).click();
         driver.navigate().to("http://www.google.com/");
     }
 
