@@ -13,7 +13,7 @@ import java.net.URL;
 
 public class AndroidBuiltInAppDemo
 {
-    AppiumDriver driver;
+    public AppiumDriver driver;
 
     @BeforeTest
     public  void setup() throws MalformedURLException {
